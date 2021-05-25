@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,27 +10,67 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </head>
+
+<!-- come fare il footer -->
+
+<!-- come allineare la navbar -->
+
+<!-- chiedere ulteriori informazioni su come usare la color-palette -->
+
+<!-- chiedere perchè non funziona l'hover sulla navbar -->
+
+<!-- chiedere come separare i link della navbar -->
+
+
+
+
+
+
 <body>
     <div id="app">
-        <header>
-            <nav>
+        <section id="section-1">
+            <header class="display-flex justify-content-sa">
                 <!-- brand -->
-                <ul>
-                    <li v-for="el in navbarLinks">
-                        <a :href="el.link" v-if="el.link">
-                            {{el.text}}
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+                <div id="brand-container">
+                    <img src="/public/img/gym_logo_1x.png" alt="AvadaGymLogo">
+                </div>
+
+                <!-- divides the logo from the links -->
+                <div class="">
+                    divisione
+                </div>
+
+                <nav class="">
+                    <!-- link list -->
+                    <ul class="display-flex">
+                        <li v-for="el in navbarLinks">
+                            <a :href="el.link" v-if="el.link">
+                                {{el.text}}
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section id="section-2">
+
+        </section>
+        <section id="section-3"></section>
+        <section id="section-4"></section>
+        <section id="section-5"></section>
+        <section id="section-6"></section>
+        <section id="section-7"></section>
+        <section id="section-8"></section>
+        <section id="section-9"></section>
+        <section id="section-10"></section>
         <main>
 
         </main>
         <footer>
-            
+
         </footer>
     </div>
     <script src="/appVue.js"></script>
 </body>
+
 </html>

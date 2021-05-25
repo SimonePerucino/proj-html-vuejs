@@ -1,0 +1,9 @@
+nav {
+    a{
+        color: $bianco;
+        font-size: $spacing - 4;
+    };
+    &:hover{
+        color: red;
+    }
+}

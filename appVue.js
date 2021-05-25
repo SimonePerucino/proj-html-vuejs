@@ -1,28 +1,37 @@
 new Vue({
-    el:"#app",
+    el: "#app",
     data: {
-        navbarLinks:[{
-            text:"Home",
-            link: "",
-        },
-        {
-            text:"Pages",
+        navbarLinks: [{
+            text: "HOME",
             link: "#",
         },
         {
-            text:"Blog",
+            text: "ABOUT US",
             link: "#",
         },
         {
-            text:"Shop",
+            text: "FACILITIES",
             link: "#",
-        }],
-        footeLinks:[
+        },
+        {
+            text: "MEMBERSHIP",
+            link: "#",
+        },
+        {
+            text: "TESTIMONIALS",
+            link: "#",
+        },
+        {
+            text: "BLOG",
+            link: "#",
+        },
+        ],
+        footeLinks: [
             {
-                
+
             }
         ]
     },
-    methods:{},
-    mounted(){},
+    methods: {},
+    mounted() { },
 })

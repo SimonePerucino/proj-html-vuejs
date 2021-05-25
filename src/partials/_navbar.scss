@@ -4,11 +4,10 @@ nav {
         padding: 10px;
     }
     a{
-        color: $bianco;
+        color: $white;
         font-size: $spacing / 2;
         &:hover{
-            color: red;
+            color: $orange;
         }
     };
-   
 }

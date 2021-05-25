@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 
-
-.vertical-align{
-    vertical-align: middle;
-}
-
 li{
     list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+
+.vertical-align{
+    vertical-align: middle;
+}
+
+.font-size-x4{
+    font-size: $spacing * 4;
 }

@@ -14,10 +14,10 @@
 <!-- come fare il footer -->
 
 <!-- come allineare la navbar -->
+<!-- align items -->
 
 <!-- chiedere ulteriori informazioni su come usare la color-palette -->
 
-<!-- chiedere perchè non funziona l'hover sulla navbar -->
 
 <!-- chiedere come separare i link della navbar -->
 
@@ -29,27 +29,32 @@
 <body>
     <div id="app">
         <section id="section-1">
-            <header class="display-flex justify-content-sa">
-                <!-- brand -->
-                <div id="brand-container">
-                    <img src="/public/img/gym_logo_1x.png" alt="AvadaGymLogo">
-                </div>
+            <header>
+                <!-- navbar -->
+                <div class="display-flex justify-content-sa align-item-c">
+                    <!-- brand -->
+                    <div id="brand-container">
+                        <img src="/public/img/gym_logo_1x.png" alt="AvadaGymLogo">
+                    </div>
 
-                <!-- divides the logo from the links -->
-                <div class="">
-                    divisione
-                </div>
+                    <!-- divides the logo from the links -->
+                    <div class="flex-grow-1"></div>
 
-                <nav class="">
-                    <!-- link list -->
-                    <ul class="display-flex">
-                        <li v-for="el in navbarLinks">
-                            <a :href="el.link" v-if="el.link">
-                                {{el.text}}
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <!-- link list -->
+                        <ul class="display-flex">
+                            <li v-for="el in navbarLinks">
+                                <a :href="el.link" v-if="el.link">
+                                    {{el.text}}
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-container">
+                    <div class="text-color-white">NO PAIN NO GAIN</div>
+                    <div>motivatin is what gets you started. habit is what keeps you going</div>
+                </div>
             </header>
         </section>
         <section id="section-2">

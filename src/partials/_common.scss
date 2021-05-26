@@ -17,11 +17,11 @@ a{
 }
 
 .font-size-x1{
-    font-size: $spacing;
+    font-size: $spacing - 1;
 }
 
 .font-size-x4{
-    font-size: $spacing * 4;
+    font-size: $spacing * 4 + 9;
 }
 
 .centered-container{

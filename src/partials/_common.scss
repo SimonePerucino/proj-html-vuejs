@@ -16,6 +16,10 @@ a{
     vertical-align: middle;
 }
 
+.font-size-x1{
+    font-size: $spacing;
+}
+
 .font-size-x4{
     font-size: $spacing * 4;
 }
@@ -28,8 +32,8 @@ a{
 }
 
 .card{
-    height: 200px;
-    width: 150px;
+    width: 600px;
+    padding: $spacing;
 }
 
 .circle{
@@ -41,4 +45,21 @@ a{
 
 .text-align-center{
     text-align: center;
+}
+
+.display-ib{
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.dimension-100x100{
+    width: 100px;
+    height: 100px;
+}
+
+.font-arial-black{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

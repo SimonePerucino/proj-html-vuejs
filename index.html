@@ -14,9 +14,9 @@
 <body>
     <div id="app">
         <section id="section-1">
-            <header>
+            <header class="font-arial-black">
                 <!-- navbar -->
-                <div class="display-flex justify-content-sa align-item-c">
+                <div class="display-flex justify-content-sa align-item-c margin-top-40px">
                     <!-- brand -->
                     <div id="brand-container">
                         <img src="/public/img/gym_logo_1x.png" alt="AvadaGymLogo">
@@ -29,7 +29,7 @@
                         <!-- link list -->
                         <ul class="display-flex">
                             <li v-for="el in navbarLinks">
-                                <a :href="el.link" v-if="el.link">
+                                <a :href="el.link" v-if="el.link" class="font-size-x1">
                                     {{el.text}}
                                 </a>
                             </li>
@@ -80,34 +80,49 @@
                 <div class="circle"></div>
                 <div>Strength & conditioning</div>
                 <div class="text-color-orange">x</div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed asperiores inventore!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed
+                    asperiores inventore!</p>
             </div>
 
             <div class="section-4-item-container">
                 <div class="circle"></div>
                 <div>Strength & conditioning</div>
                 <div class="text-color-orange">x</div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed asperiores inventore!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed
+                    asperiores inventore!</p>
             </div>
 
             <div class="section-4-item-container">
                 <div class="circle"></div>
                 <div>Strength & conditioning</div>
                 <div class="text-color-orange">x</div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed asperiores inventore!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed
+                    asperiores inventore!</p>
             </div>
 
             <div class="section-4-item-container">
                 <div class="circle"></div>
                 <div>Strength & conditioning</div>
                 <div class="text-color-orange">x</div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed asperiores inventore!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque labore pariatur, repellat sed
+                    asperiores inventore!</p>
             </div>
 
         </section>
         <section id="section-5">
-            <h3 class="text-color-white">REAL WORLD RESULTS</h3>
-            <div class="text-color-orange">x x</div>
+            <h3 class="text-color-white text-align-center">REAL WORLD RESULTS</h3>
+            <div class="text-color-orange text-align-center">x x</div>
+            <div class="">
+
+                <div class="display-ib card bg-color-white">
+                    <div class="display-ib">
+                        <img src="public/img/review_1-compressor.jpg" class="display-ib" alt="">
+                    </div>
+                    <div class="display-ib">
+                        <p class="display-ib">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, modi dolores minima voluptatibus nemo sequi maxime animi dolore pariatur, autem eius temporibus. Assumenda reiciendis, optio corrupti minus corporis nihil temporibus!</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="section-6"></section>
         <section id="section-7"></section>

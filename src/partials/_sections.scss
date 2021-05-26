@@ -16,4 +16,20 @@
     padding: $spacing *2;
     width: 100vw;
     background-color: $gray-x3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+#section-4{
+    padding: $spacing *2;
+    background-image:url("C:/Users/Saimon/Desktop/Boolean/35 proj-html-vuejs/public/img/gym_bkgd_bw-compressor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

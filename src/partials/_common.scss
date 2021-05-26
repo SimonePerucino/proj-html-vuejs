@@ -19,3 +19,10 @@ a{
 .font-size-x4{
     font-size: $spacing * 4;
 }
+
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
